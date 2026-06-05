@@ -77,7 +77,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Was zur Hölle ist HCD? — Ein 10-Minuten-Crashkurs" },
+      { title: "Was zur Hölle ist HCD?" },
       {
         name: "description",
         content:
@@ -91,6 +91,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       },
       { property: "og:type", content: "article" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "Was zur Hölle ist HCD?" },
+      { name: "description", content: "Ein 10-Minuten-Crashkurs" },
+      { property: "og:description", content: "Ein 10-Minuten-Crashkurs" },
+      { name: "twitter:description", content: "Ein 10-Minuten-Crashkurs" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9d511fb4-fbdb-4a09-9af9-21491da5633c/id-preview-8e1eeea5--25e7237f-15ff-4d91-ab1a-7f31f0aa8c89.lovable.app-1780654900405.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/9d511fb4-fbdb-4a09-9af9-21491da5633c/id-preview-8e1eeea5--25e7237f-15ff-4d91-ab1a-7f31f0aa8c89.lovable.app-1780654900405.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
