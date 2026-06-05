@@ -154,7 +154,7 @@ function Hero() {
         </motion.div>
 
         <h1 className="text-display-xl">
-          <span className="block">Was zur</span>
+          <span className="block">​Was zur</span>
           <span className="block">
             Hölle ist{" "}
             <span className="text-accent italic font-light">HCD</span>?
@@ -243,7 +243,7 @@ function Venn() {
     <SectionShell
       id="venn"
       kicker="02 · Begriffsklärung"
-      title="UX, Usability, HCD — wer ist wer?"
+      title="UX, Usability, HCD — was ist was?"
     >
       <div className="grid gap-6 md:grid-cols-3">
         <ConceptCard
